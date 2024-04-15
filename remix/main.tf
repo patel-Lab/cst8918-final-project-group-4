@@ -130,7 +130,7 @@ resource "kubernetes_deployment" "remix_weather" {
 
       spec {
         container {
-          image = "joesanthosh/cst8918-a01-weather-app:latest"
+          image = "akin/cst8918-a01-weather-app:latest"
           name  = "remix-weather"
 
           port {
