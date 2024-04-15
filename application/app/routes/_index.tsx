@@ -71,7 +71,7 @@ export default function CurrentConditions() {
         <p
           style={{
             fontSize: '1.2rem',
-            fontWeight: '400'
+            fontWeight: '600'
           }}
         >
           {capitalizeFirstLetter(weather.description)}. Feels like{' '}
