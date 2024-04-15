@@ -5,7 +5,7 @@ provider "azurerm" {
 
 # Azure Container Registry (ACR)
 resource "azurerm_container_registry" "acr" {
-  name                = "acrfinalproj"
+  name                = "group4"
   resource_group_name = "cst8918-final-project-group-1"
   location            = "canadacentral"
   sku                 = "Basic"
